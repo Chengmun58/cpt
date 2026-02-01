@@ -216,10 +216,13 @@ def main() -> None:
                     }
                 ]
             },
-            "Category": {"select": {"name": category or "Unknown"}},
-            "Remark": {"rich_text": [{"text": {"content": remark or ""}}]},
-            "File Date": {"date": {"start": file_date or ""}},
         }
+        if category:
+            properties["Category"] = {"select": {"name": category}}
+        if remark:
+            properties["Remark"] = {"rich_text": [{"text": {"content": remark}}]}
+        if file_date:
+            properties["File Date"] = {"date": {"start": file_date}}
         # If we have a URL, store as a URL property; adjust property name as needed
         if file_url_for_notion:
             properties["Link"] = {"url": file_url_for_notion}
