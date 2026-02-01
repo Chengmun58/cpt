@@ -1,0 +1,60 @@
+
+<database url="{{https://www.notion.so/edc7a4566d40459db2fc04465fc8911e}}" inline="false" icon="🗂️">
+The title of this Database is: 🗂️ File Library
+<ancestor-path>
+<parent-page url="{{https://www.notion.so/d3197bb004a843129ee695e337367588}}" title="📚 资源导航中心 | Resource Hub"/>
+<ancestor-2-data-source url="{{collection://3df0fd3f-4adc-4f75-abc6-d753a8f177bd}}" name="SOPs & Docs"/>
+<ancestor-3-database url="{{https://www.notion.so/495ad863f6de471a8712b65049995e9c}}" title=""/>
+<ancestor-4-page url="{{https://www.notion.so/be36d330a9454069935415c6059f9b87}}" title="Fulfillment Technical Knowledge Base"/>
+</ancestor-path>
+Here are the Database's Data Sources:
+You can use the "view" tool on the URL of any Data Source to see its full schema configuration.
+<data-sources>
+<data-source url="{{collection://27c28693-7d73-4363-bd6c-0a76002e9a9b}}">
+The title of this Data Source is: 🗂️ File Library
+
+Here is the database's configurable state:
+<data-source-state>
+{"icon":"🗂️","name":"File Library","schema":{"Brand":{"description":"","name":"Brand","options":[{"color":"red","description":"","name":"MUMSRELLE","url":"collectionPropertyOption://27c28693-7d73-4363-bd6c-0a76002e9a9b/Q2VKdA/VzxJSQ"},{"color":"green","description":"","name":"Flommie","url":"collectionPropertyOption://27c28693-7d73-4363-bd6c-0a76002e9a9b/Q2VKdA/d2FsYA"}],"type":"select"},"Category":{"description":"","name":"Category","options":[{"color":"green","description":"","name":"Microneedling","url":"collectionPropertyOption://27c28693-7d73-4363-bd6c-0a76002e9a9b/ZVRiSQ/VFFpTA"},{"color":"purple","description":"","name":"Aeshn","url":"collectionPropertyOption://27c28693-7d73-4363-bd6c-0a76002e9a9b/ZVRiSQ/WFdsaQ"},{"color":"orange","description":"","name":"Pelvic Restoration","url":"collectionPropertyOption://27c28693-7d73-4363-bd6c-0a76002e9a9b/ZVRiSQ/ZExTTA"},{"color":"red","description":"","name":"EERR","url":"collectionPropertyOption://27c28693-7d73-4363-bd6c-0a76002e9a9b/ZVRiSQ/T2ZSdA"},{"color":"yellow","description":"","name":"Slimming Centre","url":"collectionPropertyOption://27c28693-7d73-4363-bd6c-0a76002e9a9b/ZVRiSQ/b2ZTUg"},{"color":"default","description":"","name":"Promotion","url":"collectionPropertyOption://27c28693-7d73-4363-bd6c-0a76002e9a9b/ZVRiSQ/SElaXw"},{"color":"pink","description":"","name":"Baby Fair","url":"collectionPropertyOption://27c28693-7d73-4363-bd6c-0a76002e9a9b/ZVRiSQ/SztWeQ"},{"color":"gray","description":"","name":"Flommie","url":"collectionPropertyOption://27c28693-7d73-4363-bd6c-0a76002e9a9b/ZVRiSQ/VmZvXA"}],"type":"select"},"Days Since Sync":{"codeUrl":"formulaCode://27c28693-7d73-4363-bd6c-0a76002e9a9b/bG5EZQ","description":"","name":"Days Since Sync","type":"formula"},"File Complete":{"codeUrl":"formulaCode://27c28693-7d73-4363-bd6c-0a76002e9a9b/SlhaYw","description":"","name":"File Complete","type":"formula"},"File Name":{"description":"","name":"File Name","type":"title"},"File Type":{"description":"","name":"File Type","options":[{"color":"yellow","description":"","name":"PDF","url":"collectionPropertyOption://27c28693-7d73-4363-bd6c-0a76002e9a9b/fDttQg/U3VTcg"},{"color":"purple","description":"","name":"Image","url":"collectionPropertyOption://27c28693-7d73-4363-bd6c-0a76002e9a9b/fDttQg/W04_cg"},{"color":"blue","description":"","name":"Doc","url":"collectionPropertyOption://27c28693-7d73-4363-bd6c-0a76002e9a9b/fDttQg/QVFNXw"},{"color":"gray","description":"","name":"Sheet","url":"collectionPropertyOption://27c28693-7d73-4363-bd6c-0a76002e9a9b/fDttQg/WD9haQ"},{"color":"default","description":"","name":"Video","url":"collectionPropertyOption://27c28693-7d73-4363-bd6c-0a76002e9a9b/fDttQg/XXRVSw"},{"color":"pink","description":"","name":"Other","url":"collectionPropertyOption://27c28693-7d73-4363-bd6c-0a76002e9a9b/fDttQg/bHA7aQ"}],"type":"select"},"Last Synced":{"description":"","name":"Last Synced","type":"date"},"Link":{"description":"","name":"Link","type":"url"},"Link Status":{"codeUrl":"formulaCode://27c28693-7d73-4363-bd6c-0a76002e9a9b/bUtYbg","description":"","name":"Link Status","type":"formula"},"Source":{"description":"","name":"Source","options":[{"color":"purple","description":"","name":"Google Drive","url":"collectionPropertyOption://27c28693-7d73-4363-bd6c-0a76002e9a9b/Tl1yeQ/U3VTcg"},{"color":"gray","description":"","name":"Manual Upload","url":"collectionPropertyOption://27c28693-7d73-4363-bd6c-0a76002e9a9b/Tl1yeQ/W04_cg"},{"color":"orange","description":"","name":"Email","url":"collectionPropertyOption://27c28693-7d73-4363-bd6c-0a76002e9a9b/Tl1yeQ/QVFNXw"},{"color":"brown","description":"","name":"Other","url":"collectionPropertyOption://27c28693-7d73-4363-bd6c-0a76002e9a9b/Tl1yeQ/WD9haQ"}],"type":"select"},"Type":{"description":"","name":"Type","options":[{"color":"default","description":"","name":"Logo","url":"collectionPropertyOption://27c28693-7d73-4363-bd6c-0a76002e9a9b/bUx2dg/VzxJSQ"},{"color":"orange","description":"","name":"Moodboard","url":"collectionPropertyOption://27c28693-7d73-4363-bd6c-0a76002e9a9b/bUx2dg/d2FsYA"},{"color":"brown","description":"","name":"Product Image","url":"collectionPropertyOption://27c28693-7d73-4363-bd6c-0a76002e9a9b/bUx2dg/cFpFQw"},{"color":"gray","description":"","name":"Guide","url":"collectionPropertyOption://27c28693-7d73-4363-bd6c-0a76002e9a9b/bUx2dg/WVhtZw"},{"color":"purple","description":"","name":"Other","url":"collectionPropertyOption://27c28693-7d73-4363-bd6c-0a76002e9a9b/bUx2dg/PnR8cw"}],"type":"select"},"Upload":{"description":"","name":"Upload","type":"file"}},"url":"collection://27c28693-7d73-4363-bd6c-0a76002e9a9b"}
+</data-source-state>
+
+Here is the SQLite table definition for this data source.
+<sqlite-table>
+CREATE TABLE IF NOT EXISTS "collection://27c28693-7d73-4363-bd6c-0a76002e9a9b" (
+        url TEXT UNIQUE,
+        createdTime TEXT, -- ISO-8601 datetime string, automatically set. This is the canonical time for when the page was created.
+        "Brand" TEXT, -- one of ["MUMSRELLE", "Flommie"]
+        "date:Last Synced:start" TEXT, -- ISO-8601 date or datetime string. Use the expanded property (date:<column_name>:start) to set this value.
+        "date:Last Synced:end" TEXT, -- ISO-8601 date or datetime string, can be empty. Must be NULL if the date is a single date, and must be present if the date is a range. Use the expanded property (date:<column_name>:end) to set this value.
+        "date:Last Synced:is_datetime" INTEGER, -- 1 if the date is a datetime, 0 if it is a date, NULL defaults to 0. Use the expanded property (date:<column_name>:is_datetime) to set this value.
+        "Source" TEXT, -- one of ["Google Drive", "Manual Upload", "Email", "Other"]
+        "Link" TEXT,
+        "Category" TEXT, -- one of ["Microneedling", "Aeshn", "Pelvic Restoration", "EERR", "Slimming Centre", "Promotion", "Baby Fair", "Flommie"]
+        "Type" TEXT, -- one of ["Logo", "Moodboard", "Product Image", "Guide", "Other"]
+        "File Type" TEXT, -- one of ["PDF", "Image", "Doc", "Sheet", "Video", "Other"]
+        "Upload" TEXT, -- JSON array of zero or more file IDs
+        "File Name" TEXT
+)
+</sqlite-table>
+</data-source>
+</data-sources>
+Here are the Database's Views:
+You can use the "view" tool on the URL of any View to see its full configuration.
+<views>
+<view url="{{view://73cdb19a-1111-43fa-bad3-c651dfeb416f}}">
+{"dataSourceUrl":"{{collection://27c28693-7d73-4363-bd6c-0a76002e9a9b}}","displayProperties":["File Name","Brand","Category","Days Since Sync","File Complete","File Type","Last Synced","Link","Link Status","Source","Type","Upload"],"name":"","type":"table"}
+</view>
+<view url="{{view://be15c522-672e-4078-9146-4d328cd73958}}">
+{"cardLayoutMode":"default","dataSourceUrl":"{{collection://27c28693-7d73-4363-bd6c-0a76002e9a9b}}","displayProperties":["File Name","Brand","Link","Type","Upload"],"fullWidthProperties":[],"name":"All Files","type":"gallery"}
+</view>
+<view url="{{view://0382dddf-244b-4a39-b54c-5d74f67e932b}}">
+{"dataSourceUrl":"{{collection://27c28693-7d73-4363-bd6c-0a76002e9a9b}}","displayProperties":["File Name","Link","Type","Upload","Brand","Category","Days Since Sync","File Complete","File Type","Last Synced","Link Status","Source"],"groupBy":{"property":"Brand","propertyType":"select","sort":{"type":"manual"}},"name":"By Brand","type":"table"}
+</view>
+<view url="{{view://9fd0ded9-1823-4541-b051-caa450d8e9af}}">
+{"dataSourceUrl":"{{collection://27c28693-7d73-4363-bd6c-0a76002e9a9b}}","displayProperties":["File Name","Brand","Link","Upload","Category","Days Since Sync","File Complete","File Type","Last Synced","Link Status","Source","Type"],"groupBy":{"property":"Type","propertyType":"select","sort":{"type":"manual"}},"name":"By Type","type":"table"}
+</view>
+</views>
+</database>
+
+Metadata:
+type: database
