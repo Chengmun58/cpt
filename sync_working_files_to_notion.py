@@ -33,6 +33,7 @@ Configure the following environment variables before running:
 - `WORKSHEET_NAME`: Name of the worksheet/tab to process (e.g. "Microneedling").
 - `NOTION_API_KEY`: your Notion integration secret.
 - `NOTION_DATABASE_ID`: ID of the Notion database (e.g. File Library).
+- `NOTION_BASE_URL`: optional Notion API base URL (e.g. "https://mcp.notion.com/mcp").
 
 Usage:
 ```
@@ -162,6 +163,7 @@ def main() -> None:
     worksheet_name = os.environ.get("WORKSHEET_NAME", "Microneedling")
     notion_key = os.environ.get("NOTION_API_KEY")
     notion_db_id = os.environ.get("NOTION_DATABASE_ID")
+    notion_base_url = os.environ.get("NOTION_BASE_URL")
     if not all([sheet_id, notion_key, notion_db_id]):
         raise RuntimeError(
             "SHEET_ID, NOTION_API_KEY, and NOTION_DATABASE_ID environment variables must be set"
@@ -169,7 +171,11 @@ def main() -> None:
     services = get_google_services()
     sheets_service = services["sheets"]
     drive_service = services["drive"]
-    notion = NotionClient(auth=notion_key)
+    notion = (
+        NotionClient(auth=notion_key, base_url=notion_base_url)
+        if notion_base_url
+        else NotionClient(auth=notion_key)
+    )
 
     last_row = get_last_synced_row()
     # Start reading from the next row after last synced
